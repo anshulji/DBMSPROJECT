@@ -16,10 +16,10 @@
 				<a class="navbar-brand" href="#">RANJAN DECORATORS</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="/dbms/user"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+				<li class="active"><a href="/user"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 				</ul>
 			<ul class="nav navbar-nav navbar-right">
-			<li><a href="/dbms/buyitem/cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
+			<li><a href="/buyitem/cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
 			<c:if test="${pageContext.request.userPrincipal.name != null}">
 				<li><a href="<c:url value="/j_spring_security_logout" />"><span class="glyphicon glyphicon-log-out"></span>
 						LOGOUT</a></li>

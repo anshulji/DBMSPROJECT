@@ -47,13 +47,13 @@
 			</div>
 			<!-- Navigation Menu -->
 			<ul class="main-menu">
-				<li><a href="/dbms/home">Home</a></li>
-				<li><a href="/dbms/wishlist">Wishlist</a></li>
-				<li><a href="/dbms/services">Services</a></li>
-				<li><a href="/dbms/blog">Blog</a></li>
-				<li><a href="/dbms/contact">Contact</a></li>
-				<li><a href="/dbms/products">Products</a></li>
-				<li><a href="/dbms/appointment">Book Appointment</a></li>
+				<li><a href="/home">Home</a></li>
+				<li><a href="/wishlist">Wishlist</a></li>
+				<li><a href="/services">Services</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/products">Products</a></li>
+				<li><a href="/appointment">Book Appointment</a></li>
 				
 			</ul>
 			<div class="header-right">
@@ -89,7 +89,7 @@ return;
 	
 	<div class="col-lg-6" style="width: 100%; margin: 0 auto;">
 					<h2 class="contact-title">Login</h2>
-					<form:form class="contact-form" action="/dbms/login" method="post" modelAttribute="user">
+					<form:form class="contact-form" action="/login" method="post" modelAttribute="user">
 						<div class="row" >
 							<div class="col-md-6">
 								<form:input type="text" path="username" placeholder="Username" required="true"/>

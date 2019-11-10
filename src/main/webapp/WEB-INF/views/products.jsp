@@ -47,7 +47,7 @@
 				<li><a href="blog">Blog</a></li>
 				<li><a href="contact">Contact</a></li>
 				<li class="active"><a href="products">Products</a></li>
-				<li><a href="/dbms/appointment">Book Appointment</a></li>
+				<li><a href="/appointment">Book Appointment</a></li>
 				
 			</ul>
 			<div class="header-right">

@@ -37,7 +37,7 @@
 		<div class="container-fluid">
 			
 			<ul class="nav navbar-nav">
-				<li><a href="/dbms/admin">Home</a></li>
+				<li><a href="/admin">Home</a></li>
 				
 			</ul>
 			<ul class="nav navbar-nav navbar-right">

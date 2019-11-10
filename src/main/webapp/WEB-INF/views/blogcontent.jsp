@@ -48,13 +48,13 @@
 			</div>
 			<!-- Navigation Menu -->
 			<ul class="main-menu">
-				<li><a href="/dbms/home">Home</a></li>
-				<li><a href="/dbms/wishlist">Wishlist</a></li>
-				<li><a href="/dbms/services">Services</a></li>
-				<li  class="active"><a href="/dbms/blog">Blog</a></li>
-				<li><a href="/dbms/contact">Contact</a></li>
-				<li><a href="/dbms/products">Products</a></li>
-				<li><a href="/dbms/appointment">Book Appointment</a></li>
+				<li><a href="/home">Home</a></li>
+				<li><a href="/wishlist">Wishlist</a></li>
+				<li><a href="/services">Services</a></li>
+				<li  class="active"><a href="/blog">Blog</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/products">Products</a></li>
+				<li><a href="/appointment">Book Appointment</a></li>
 				
 			</ul>
 			<div class="header-right">
@@ -101,7 +101,7 @@
 			</c:forEach>
 			<c:if test="${pageContext.request.userPrincipal.name != null}">
 			
-					<form:form class="contact-form" action="/dbms/blogcontent/submit" method="post" modelAttribute="comment">
+					<form:form class="contact-form" action="/blogcontent/submit" method="post" modelAttribute="comment">
 						<div class="row" >
 							<div class="col-md-6">
 								<form:input type="text" path="comment" placeholder="Add Your Comment" required="true"/>

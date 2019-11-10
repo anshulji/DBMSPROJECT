@@ -41,13 +41,13 @@
 			</div>
 			<!-- Navigation Menu -->
 			<ul class="main-menu">
-				<li><a href="/dbms/home">Home</a></li>
-				<li><a href="/dbms/wishlist">Wishlist</a></li>
-				<li><a href="/dbms/services">Services</a></li>
-				<li><a href="/dbms/blog">Blog</a></li>
-				<li><a href="/dbms/contact">Contact</a></li>
+				<li><a href="/home">Home</a></li>
+				<li><a href="/wishlist">Wishlist</a></li>
+				<li><a href="/services">Services</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/contact">Contact</a></li>
 				<li class="active"><a href="products">Products</a></li>
-				<li><a href="/dbms/appointment">Book Appointment</a></li>
+				<li><a href="/appointment">Book Appointment</a></li>
 				
 			</ul>
 			<div class="header-right">
@@ -83,7 +83,7 @@
 						
 						<div class="col-lg-4 col-md-6 service text-black" style="">
 							
-							<h2><a href="/dbms/wishlist/${cat.prod_id }" >${cat.prod_name}</a></h2>
+							<h2><a href="/wishlist/${cat.prod_id }" >${cat.prod_name}</a></h2>
 							<img src="<c:url value="/resources/images/${cat.prod_image}" />" style="display: block; margin-left: auto;  margin-right: auto;  height:150px;" >
 							<p>${cat.prod_desc}</p>
 							<b><p>Rs. ${cat.prod_price}</p></b>

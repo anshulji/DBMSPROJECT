@@ -22,12 +22,12 @@
 				<a class="navbar-brand" href="#">RANJAN DECORATORS</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li><a href="/dbms/user"><span class="glyphicon glyphicon-home"></span>HOME</a></li>
-				<li class="active"><a href="/dbms/allcat">CATEGORIES</a></li>
+				<li><a href="/user"><span class="glyphicon glyphicon-home"></span>HOME</a></li>
+				<li class="active"><a href="/allcat">CATEGORIES</a></li>
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
-			<li><a href="/dbms/buyitem/cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
+			<li><a href="/buyitem/cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
 				<li><c:if test="${pageContext.request.userPrincipal.name != null}">
 					 <a href="<c:url value="/j_spring_security_logout" />"><span
 						class="glyphicon glyphicon-log-out"></span> Logout</a>

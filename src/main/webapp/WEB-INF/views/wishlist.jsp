@@ -41,13 +41,13 @@
 			</div>
 			<!-- Navigation Menu -->
 			<ul class="main-menu">
-				<li><a href="/dbms/home">Home</a></li>
-				<li  class="active"><a href="/dbms/wishlist">Wishlist</a></li>
-				<li><a href="/dbms/services">Services</a></li>
-				<li><a href="/dbms/blog">Blog</a></li>
-				<li><a href="/dbms/contact">Contact</a></li>
-				<li><a href="/dbms/products">Products</a></li>
-				<li><a href="/dbms/appointment">Book Appointment</a></li>
+				<li><a href="/home">Home</a></li>
+				<li  class="active"><a href="/wishlist">Wishlist</a></li>
+				<li><a href="/services">Services</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/products">Products</a></li>
+				<li><a href="/appointment">Book Appointment</a></li>
 				
 			</ul>
 			<div class="header-right">
@@ -82,7 +82,7 @@
 					<c:forEach items="${list }" var="cat">
 						
 						<div class="col-lg-4 col-md-6 service text-black" style="">
-							<a href="/dbms/wishlistremove/${cat.prod_id }" >
+							<a href="/wishlistremove/${cat.prod_id }" >
 							<h2>${cat.prod_name} </h2>
 							<img src="<c:url value="/resources/images/${cat.prod_image}" />" style="display: block; margin-left: auto;  margin-right: auto;  height:150px;" >
 							<p>${cat.prod_desc}</p>

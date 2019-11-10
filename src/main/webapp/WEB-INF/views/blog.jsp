@@ -47,7 +47,7 @@
 				<li class="active"><a href="blog">Blog</a></li>
 				<li><a href="contact">Contact</a></li>
 				<li><a href="products">Products</a></li>
-				<li><a href="/dbms/appointment">Book Appointment</a></li>
+				<li><a href="/appointment">Book Appointment</a></li>
 				
 			</ul>
 			<div class="header-right">
@@ -82,7 +82,7 @@
 				<!-- service -->
 					<c:forEach items="${list }" var="cat">
 						<div class="col-lg-4 col-md-6 service text-black">
-							<a href="/dbms/blogcontent/${cat.blog_id }">
+							<a href="/blogcontent/${cat.blog_id }">
 							<h2>${cat.title} </h2>
 							<p style=" overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">${cat.content}</p>
 							<b><p>${cat.getDateString()}</p></b>

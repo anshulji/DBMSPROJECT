@@ -19,7 +19,7 @@
 				<a class="navbar-brand" href="#">RANJAN DECORATORS</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="/dbms/user">Home</a></li>
+				<li class="active"><a href="/user">Home</a></li>
 				<li><a href="addcat">ADD CATEGORY</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">

@@ -47,13 +47,13 @@
 			</div>
 			<!-- Navigation Menu -->
 			<ul class="main-menu">
-				<li><a href="/dbms/home">Home</a></li>
-				<li><a href="/dbms/wishlist">Wishlist</a></li>
-				<li><a href="/dbms/services">Services</a></li>
-				<li><a href="/dbms/blog">Blog</a></li>
-				<li><a href="/dbms/contact">Contact</a></li>
-				<li><a href="/dbms/products">Products</a></li> 
-				<li class="active"><a href="/dbms/appointment">Book Appointment</a></li>
+				<li><a href="/home">Home</a></li>
+				<li><a href="/wishlist">Wishlist</a></li>
+				<li><a href="/services">Services</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/products">Products</a></li> 
+				<li class="active"><a href="/appointment">Book Appointment</a></li>
 				
 			</ul>
 			<div class="header-right">
@@ -71,7 +71,7 @@
 	<!-- Header section end -->
 <br>
 <div class="col-lg-6" style="width: 100%; margin: 0 auto;">
-	<form:form method="post" modelAttribute="appointment" action="/dbms/appointment">
+	<form:form method="post" modelAttribute="appointment" action="/appointment">
             <label for="">Date</label>
             <br>
             <form:input type="text" class="form-control" path="date" placeholder="yyyy/mm/dd" required="true"/>

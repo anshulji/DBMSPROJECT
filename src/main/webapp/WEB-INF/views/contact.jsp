@@ -47,9 +47,9 @@
 				<li><a href="wishlist">Wishlist</a></li>
 				<li><a href="services">Services</a></li>
 				<li><a href="blog">Blog</a></li>
-				<li class="active"><a href="/dbms/contact">Contact</a></li>
+				<li class="active"><a href="/contact">Contact</a></li>
 				<li><a href="products">Products</a></li>
-				<li><a href="/dbms/appointment">Book Appointment</a></li>
+				<li><a href="/appointment">Book Appointment</a></li>
 				
 			</ul>
 			<div class="header-right">
@@ -95,7 +95,7 @@
 				</div>
 				<div class="col-lg-6">
 					<h2 class="contact-title">Get in Touch</h2>
-					<form:form class="contact-form" action="/dbms/submitmessage" method="post" modelAttribute="message">
+					<form:form class="contact-form" action="/submitmessage" method="post" modelAttribute="message">
 						<div class="row">
 							<div class="col-md-6">
 								<form:input type="text" path="name" placeholder="Your Name" required="true"/>
